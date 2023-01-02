@@ -1,0 +1,41 @@
+/* fonts */
+
+
+/* public */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* .m-color{
+}
+.s-color{
+} */
+
+
+
+
+/* navbar - start */
+nav .container-fluid{
+    width: 96% !important;
+}
+/* navbar - end */
+
+/* header - start */
+.container{
+    width: 60% !important;
+}
+.icon-w{
+    width: 3%;
+}
+.header-list{
+    line-height: 10px;
+}
+/* header - end */
