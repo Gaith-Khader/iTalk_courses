@@ -1,7 +1,11 @@
 /* fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
 
 /* public */
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 *{
     padding: 0;
     margin: 0;
@@ -14,6 +18,9 @@ li{
     list-style-type: none;
 }
 
+.text-gray{
+    color: #515164 !important;
+}
 /* .m-color{
 }
 .s-color{
@@ -26,16 +33,36 @@ li{
 nav .container-fluid{
     width: 96% !important;
 }
+nav .nav-link{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
 /* navbar - end */
 
 /* header - start */
+header h1{
+    font-size: 48px;
+    color: #313140;
+    line-height: 60px;
+}
 .container{
     width: 60% !important;
 }
 .icon-w{
     width: 3%;
 }
-.header-list{
+header .header-list{
     line-height: 10px;
 }
+header .header-desc p{
+    font-size: 14px;
+    font-weight: 500;
+}
+header .header-btn{
+    padding:10px 60px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #D3382F;
+}
+
 /* header - end */
