@@ -1,5 +1,5 @@
 /* fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap'); 
 
 /* public */
 *{
@@ -7,19 +7,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 a{
     text-decoration: none;
 }
+
 li{
     list-style-type: none;
 }
 
-/* .m-color{
+h2{
+    font-weight: 700;
+    font-size:32px;
+    color: #313140;
 }
-.s-color{
-} */
 
-
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    color:#515164
+}
 
 
 /* navbar - start */
@@ -30,7 +41,7 @@ nav .container-fluid{
 
 /* header - start */
 .container{
-    width: 60% !important;
+    width: 87% !important;
 }
 .icon-w{
     width: 3%;
@@ -39,3 +50,16 @@ nav .container-fluid{
     line-height: 10px;
 }
 /* header - end */
+
+/*start italik offers style*/
+.offers p{
+    font-size: 14px;
+    color:#9c9cac;
+    width: 90%;
+    height: 66px;
+}
+
+.offers a i{
+font-size: 12px;
+}
+/*end italik offers style*/
