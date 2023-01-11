@@ -6,14 +6,21 @@
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 a{
     text-decoration: none;
 }
+
 li{
     list-style-type: none;
 }
@@ -22,11 +29,17 @@ li{
     color: #515164 !important;
 }
 /* .m-color{
+h2{
+    font-weight: 700;
+    font-size:32px;
+    color: #313140;
 }
-.s-color{
-} */
 
-
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    color:#515164
+}
 
 
 /* navbar - start */
@@ -46,7 +59,7 @@ header h1{
     line-height: 60px;
 }
 .container{
-    width: 60% !important;
+    width: 87% !important;
 }
 .icon-w{
     width: 3%;
@@ -66,3 +79,16 @@ header .header-btn{
 }
 
 /* header - end */
+
+/*start italik offers style*/
+.offers p{
+    font-size: 14px;
+    color:#9c9cac;
+    width: 90%;
+    height: 66px;
+}
+
+.offers a i{
+font-size: 12px;
+}
+/*end italik offers style*/
