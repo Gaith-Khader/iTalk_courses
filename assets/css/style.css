@@ -1,35 +1,61 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
 
 /* public */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.container{
+    width: 100% !important;
 }
 
 body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 a{
     text-decoration: none;
+    color: #000;
 }
 
 li{
     list-style-type: none;
 }
 
+.text-gray{
+    color: #515164 !important;
+}
+.text-gray2{
+    color: #9c9cac !important;
+}
 h2{
     font-weight: 700;
     font-size:32px;
     color: #313140;
 }
-
 h3{
     font-weight: 700;
     font-size: 20px;
     color:#515164
+}
+
+/* select */
+nav select,header select{
+        color:black;
+        cursor:pointer;
+        font-size: 14px;
+        font-family: 'Noto Sans', sans-serif;
+        display: flex;
+        height: 40px;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+select:hover {
+    border-color: #000 !important;
 }
 
 
@@ -37,20 +63,74 @@ h3{
 nav .container-fluid{
     width: 96% !important;
 }
+nav .nav-link{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+nav select{
+    border: 1px solid;
+}
+nav .navbar-toggler{
+    padding: 0 !important;
+}
+nav .btn-icon{
+    background-color: #e5e8ed;
+
+}
 /* navbar - end */
 
 /* header - start */
-.container{
-    width: 87% !important;
+header h1{
+    font-size: 48px;
+    color: #313140;
+    line-height: 60px;
 }
 .icon-w{
     width: 3%;
 }
 
-.header-list{
+header .header-list{
     line-height: 10px;
 }
+header .header-desc p{
+    font-size: 14px;
+    font-weight: 500;
+}
+header .header-btn{
+    padding:10px 60px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #D3382F;
+}
 /* header - end */
+
+/* language - start */
+.language .lang-desc .title{
+    font-size: 14px;
+}
+.language .lang-desc span{
+    font-size: 12px;
+}
+.language .lang-desc{
+    position: relative;
+}
+.select-lang{
+    position: absolute;
+    top: 3px;
+}
+.language .lang:hover{
+    background-color: #F5F6F9;
+    border-radius: 15px;
+}
+.language .select-lang{
+    opacity: 0;
+}
+
+.language select option{
+    font-size: 14px;
+
+}
+/* language - end */
 
 /*start italik offers style*/
 .offers p{
