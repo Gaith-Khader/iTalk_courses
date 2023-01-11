@@ -18,14 +18,14 @@
 
 <body>
     <!-- navbar - start -->
-    <nav class="navbar navbar-expand-lg border-bottom">
+    <nav class="navbar gnavbar-expand-lg border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Logo.jpg" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="btn-icon fa-solid fa-bars-staggered p-2 rounded"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -37,7 +37,7 @@
                         <ul class="dropdown-menu">
                             <Li class="p-3">
                                 <label for="lan" class="mb-1">Site Language</label>
-                                <select name="Language" id="lan" class="py-1 px-1 w-100  border border-2 rounded">
+                                <select name="Language" id="lan" class="py-1 px-1 w-100 border border-1 rounded">
                                     <option>English</option>
                                     <option>1</option>
                                     <option>Italy</option>
@@ -46,7 +46,7 @@
                             </Li>
                             <Li class="p-3">
                                 <label for="currency" class="mb-1">Currency</label>
-                                <select name="currency" id="currency" class="py-1 px-1 w-100 border border-2 rounded">
+                                <select name="currency" id="currency" class="py-1 px-1 w-100 border border-1 rounded">
                                     <option>USD</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -83,33 +83,163 @@
     <header class="header d-flex mt-5">
         <div class="container">
             <div class="flex justify-content-center row">
-                <div class="header-desc col-md-6">
-                    <h1 class="mb-5 fw-bold">Become fluent in any language</h1>
-                    <ul class="header-list p-0">
-                        <li class="d-flex align-items-start">
-                            <div class="icon-w"><img src="assets/img/redx2.jpg" alt="icon" class="w-75"></div>
-                            <p class="ms-1 text-gray">Take customizable 1-on-1 lessons trusted by millions of users</p>
-                        </li>
-                        <li class="d-flex align-items-start">
-                            <div class="icon-w"><img src="assets/img/redx2.jpg" alt="icon" class="w-75"></div>
-                            <p class="ms-1 text-gray">Learn from certified teachers that fit your budget and schedule</p>
-                        </li>
-                        <li class="d-flex align-items-start mb-4">
-                            <div class="icon-w"><img src="assets/img/redx2.jpg" alt="icon" class="w-75"></div>
-                            <p class="ms-1 text-gray">Connect with a global community of language learners</p>
-                        </li>
-                        <lI>
-                            <a href="#" class="header-btn text-white rounded">Start Now</a>
-                        </lI>
-                    </ul>
+                <div class=" col-12 col-md-12 col-lg-6">
+                    <div class="header-desc">
+                        <h1 class="mb-5 fw-bold">Become fluent in any language</h1>
+                        <ul class="header-list p-0">
+                            <li class="d-flex align-items-start">
+                                <div class="icon-w"><img src="assets/img/redx2.jpg" alt="icon" class="w-75"></div>
+                                <p class="ms-1 text-gray">Take customizable 1-on-1 lessons trusted by millions of users</p>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <div class="icon-w"><img src="assets/img/redx2.jpg" alt="icon" class="w-75"></div>
+                                <p class="ms-1 text-gray">Learn from certified teachers that fit your budget and schedule</p>
+                            </li>
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-w"><img src="assets/img/redx2.jpg" alt="icon" class="w-75"></div>
+                                <p class="ms-1 text-gray">Connect with a global community of language learners</p>
+                            </li>
+                            <lI>
+                                <a href="#" class="header-btn text-white rounded">Start Now</a>
+                            </lI>
+                        </ul>
+                    </div>
                 </div>
-                <div class="header-img col-md-6 w-50">
-                    <img src="assets/img/hp_cover_w.png" alt="header-img" class="w-100">
+                <div class=" col-12 col-md-6 col-lg-6">
+                    <div class="header-img">
+                        <img src="assets/img/hp_cover_w.png" alt="header-img" class="w-100">
+                    </div>
+                </div>
+                <div class="m-desc text-center mt-2 text-gray px-3">
+                    <span class="d-none">italki’s all about providing a comprehensive language learning experience.</span>
+                </div>
+                <div class="m-btn mt-4 text-center">
+                    <a href="#" class="header-btn text-white rounded d-none">Start Now</a>
                 </div>
             </div>
         </div>
     </header>
     <!-- header - end -->
+    <!-- language - end -->
+    <div class="language mt-5 py-3">
+        <div class="container">
+            <div class="border border-1 rounded p-3 content">
+                <div class="row">
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang mb-3">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/english.svg" alt="english">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">english</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">7286 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang mb-3">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/japanese.svg" alt="japanese">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">japanese</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">1184 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang mb-3">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/spanish.svg" alt="spanish">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">spanish</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">3799 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang mb-3">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/chinese.svg" alt="chinese">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">chinese</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">1363 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang mb-3">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/french.svg" alt="french">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">french</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">1295 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang mb-3">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/italian.svg" alt="italian">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">italian</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">1015 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/german.svg" alt="german">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">german</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">678 teachers</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <a href="#">
+                            <div class="d-flex p-2 lang">
+                                <div class="lang-img mt-1">
+                                    <img src="assets/img/language/all.svg" alt="all">
+                                </div>
+                                <div class="lang-desc d-flex flex-column ms-2">
+                                    <span class="d-inline-block title text-capitalize fw-bold">more</span>
+                                    <span class="d-inline-block text-capitalize text-gray2">20000+ teachers</span>
+                                    <select name="Language" id="lan" class="py-1 px-1 w-100  border border-2 rounded select-lang">
+                                        <option>English</option>
+                                        <option>1</option>
+                                        <option>Italy</option>
+                                        <option>Arabic</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- language - end -->
 
     <!-- start italik offers section -->
     <section class="offers mt-5 mb-5">
@@ -158,6 +288,7 @@
     </section>
     <!-- end italik offers section -->
 
+    
 
 </body>
 <!-- bootstrap 5 js -->
