@@ -16,10 +16,6 @@ body{
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Noto Sans', sans-serif;
-}
-
 a{
     text-decoration: none;
     color: #000;
@@ -32,24 +28,20 @@ li{
 .text-gray{
     color: #515164 !important;
 }
-<<<<<<< HEAD
-
+.text-gray2{
+    color: #9c9cac !important;
+}
 h2{
     font-weight: 700;
     font-size:32px;
     color: #313140;
 }
-
 h3{
     font-weight: 700;
     font-size: 20px;
     color:#515164
 }
-=======
-.text-gray2{
-    color: #9c9cac !important;
-}
->>>>>>> gaith
+
 
 /* select */
 nav select,header select{
@@ -65,6 +57,7 @@ nav select,header select{
 select:hover {
     border-color: #000 !important;
 }
+
 
 /* navbar - start */
 nav .container-fluid{
@@ -92,13 +85,6 @@ header h1{
     color: #313140;
     line-height: 60px;
 }
-<<<<<<< HEAD
-.container{
-    width: 87% !important;
-}
-=======
-
->>>>>>> gaith
 .icon-w{
     width: 3%;
 }
@@ -117,20 +103,7 @@ header .header-btn{
 }
 /* header - end */
 
-<<<<<<< HEAD
-/*start italik offers style*/
-.offers p{
-    font-size: 14px;
-    color:#9c9cac;
-    width: 90%;
-    height: 66px;
-}
 
-.offers a i{
-font-size: 12px;
-}
-/*end italik offers style*/
-=======
 /* language - start */
 .language .lang-desc .title{
     font-size: 14px;
@@ -158,4 +131,17 @@ font-size: 12px;
 
 }
 /* language - end */
->>>>>>> gaith
+
+
+/*start italik offers style*/
+.offers p{
+    font-size: 14px;
+    color:#9c9cac;
+    width: 90%;
+    height: 66px;
+}
+
+.offers a i{
+font-size: 12px;
+}
+/*end italik offers style*/
