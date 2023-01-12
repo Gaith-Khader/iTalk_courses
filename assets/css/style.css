@@ -105,6 +105,9 @@ header .header-btn{
 
 
 /* language - start */
+.language{
+    position: relative;
+}
 .language .lang-desc .title{
     font-size: 14px;
 }
@@ -125,10 +128,8 @@ header .header-btn{
 .language .select-lang{
     opacity: 0;
 }
-
 .language select option{
     font-size: 14px;
-
 }
 /* language - end */
 
