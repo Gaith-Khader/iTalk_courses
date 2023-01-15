@@ -159,8 +159,13 @@ font-size: 12px;
         font-size: 14px;
         color:#515164;
 }
+.classroom .tab-content a{
+    max-height:113px;
+}
+
 .fs-sm{
     font-size: 12px;
     color:#9c9cAc;
 }
+
 /*  end classroom style */
