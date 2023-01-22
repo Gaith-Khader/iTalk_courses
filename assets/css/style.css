@@ -61,6 +61,14 @@ select:hover {
 
 
 /* navbar - start */
+nav{
+    position: fixed !important;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+
+}
 nav .container-fluid{
     width: 96% !important;
 }
@@ -89,7 +97,6 @@ header h1{
 .icon-w{
     width: 3%;
 }
-
 header .header-list{
     line-height: 10px;
 }
@@ -131,6 +138,31 @@ header .header-btn{
 }
 .language select option{
     font-size: 14px;
+}
+.slick-arrow{
+    position: absolute;
+    top: 16px;
+
+}
+.prev_arrow i,.next_arrow i{
+    position: absolute;
+    top: -5px;
+    padding: 10px 12px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #F5F6F9;
+    z-index: 998;
+}
+.next_arrow i{
+    left: -0px;
+    opacity: 0;
+    transition: .2s;
+}
+.next_arrow i:hover{
+    opacity: 1;
+}
+.prev_arrow i{
+    right: -0px;
 }
 /* language - end */
 
