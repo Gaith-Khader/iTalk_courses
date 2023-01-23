@@ -1,23 +1,12 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
-/* font-family: 'Noto Sans', sans-serif; */
+
 
 /* public */
-.container{
-    width: 100% !important;
-}
-
-body{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
-}
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 a{
     text-decoration: none;
     color: #515164;
@@ -25,6 +14,19 @@ a{
 
 li{
     list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+}
+ul{
+    list-style-type: none;
+}
+.clrfix{
+    clear: both;
 }
 
 .text-gray{
@@ -89,10 +91,8 @@ nav .btn-icon{
 /* navbar - end */
 
 /* header - start */
-header h1{
-    font-size: 48px;
-    color: #313140;
-    line-height: 60px;
+.container{
+    width: 60% !important;
 }
 .icon-w{
     width: 3%;
@@ -111,93 +111,3 @@ header .header-btn{
     background-color: #D3382F;
 }
 /* header - end */
-
-/* language - start */
-.language{
-    position: relative;
-}
-.language .lang-desc .title{
-    font-size: 14px;
-}
-.language .lang-desc span{
-    font-size: 12px;
-}
-.language .lang-desc{
-    position: relative;
-}
-.select-lang{
-    position: absolute;
-    top: 3px;
-}
-.language .lang:hover{
-    background-color: #F5F6F9;
-    border-radius: 15px;
-}
-.language .select-lang{
-    opacity: 0;
-}
-.language select option{
-    font-size: 14px;
-}
-.slick-arrow{
-    position: absolute;
-    top: 16px;
-
-}
-.prev_arrow i,.next_arrow i{
-    position: absolute;
-    top: -5px;
-    padding: 10px 12px;
-    border-radius: 50%;
-    text-align: center;
-    background-color: #F5F6F9;
-    z-index: 998;
-}
-.next_arrow i{
-    left: -0px;
-    opacity: 0;
-    transition: .2s;
-}
-.next_arrow i:hover{
-    opacity: 1;
-}
-.prev_arrow i{
-    right: -0px;
-}
-/* language - end */
-
-/*start italik offers style*/
-.offers p{
-    font-size: 14px;
-    color:#9c9cac;
-    width: 90%;
-    height: 66px;
-}
-
-.offers a i{
-font-size: 12px;
-}
-/*end italik offers style*/
-
-/*  start classroom style */
-.card-img-top{
-    position: relative;
-}
-.card-body{
-   position: absolute; 
-   top:87%;
-}
-.classroom .card p{
-        font-size: 14px;
-        color:#515164;
-}
-.classroom .tab-content a{
-    max-height:113px;
-}
-
-.fs-sm{
-    font-size: 12px;
-    color:#9c9cAc;
-}
-
-/*  end classroom style */
