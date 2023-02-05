@@ -2,22 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Noto Sans', sans-serif; */
 
-/* public */
-.container{
-    width: 100% !important;
-}
 
+/* public */
 body{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 500;
 }
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 a{
     text-decoration: none;
     color: #515164;
@@ -25,6 +20,17 @@ a{
 
 li{
     list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+.clrfix{
+    clear: both;
 }
 
 ul{
@@ -47,6 +53,9 @@ h3{
     color:#515164
 }
 
+
+/* ========================= GAITH - START ========================= */
+
 /* select */
 nav select,header select{
         color:black;
@@ -57,11 +66,10 @@ nav select,header select{
         height: 40px;
         transition: 0.5s;
         font-size: 14px;
-    }
+}
 select:hover {
     border-color: #000 !important;
 }
-
 
 /* navbar - start */
 nav{
@@ -92,13 +100,11 @@ nav .btn-icon{
 /* navbar - end */
 
 /* header - start */
-header h1{
-    font-size: 48px;
-    color: #313140;
-    line-height: 60px;
-}
 .icon-w{
     width: 3%;
+}
+header .header-desc h1{
+    font-size: 48px !important;
 }
 header .header-list{
     line-height: 10px;
@@ -145,7 +151,6 @@ header .header-btn{
 .slick-arrow{
     position: absolute;
     top: 16px;
-
 }
 .prev_arrow i,.next_arrow i{
     position: absolute;
@@ -169,6 +174,11 @@ header .header-btn{
 }
 /* language - end */
 
+/* ========================= GAITH - END ========================= */
+
+
+/* ========================= TAIMA - START ========================= */
+
 /*start italik offers style*/
 .offers p{
     font-size: 14px;
@@ -176,7 +186,6 @@ header .header-btn{
     width: 90%;
     height: 66px;
 }
-
 .offers a i{
 font-size: 12px;
 }
@@ -197,116 +206,40 @@ font-size: 12px;
 .classroom .tab-content a{
     max-height:113px;
 }
-
 .fs-sm{
     font-size: 12px;
     color:#9c9cAc;
 }
-
 /*  end classroom style */
 
+/* ========================= TAIMA - END ========================= */
 
 
-
-
-
-
-
-/* ----------------- yousef -------------- */
-/* =========================================================================== */
-.frequently11{
-    margin-top: 40px;
-    background-color: rgb(245, 246, 249);
-    
-}
-.frequently11 .enwan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(49, 49, 64);
-    font-size: 32px;
-    font-family: "Noto Sans",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    margin-bottom: 20px;
-}
-/* ==============================================*/
-
-/* section red background */
-.frequently .accordion-item{
-    border: 0;
-    margin-bottom: 10px;
-}
-.frequently .accordion-item .accordion-button{
-    font-weight: 700;
+/* ========================= YOUSEF - START ========================= */
+.frequently{
+    background-color: rgb(233,236,239);
 }
 .accordion {
-    --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
-    --bs-accordion-inner-border-radius:10px !important;
-    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-width: none;
     --bs-accordion-btn-icon-width: 0.75rem;
-    --bs-accordion-btn-focus-box-shadow: 0 0 0 0;
+    --bs-accordion-btn-focus-box-shadow: unset !important;
     --bs-accordion-active-color: black;
-    --bs-accordion-active-bg: unset;
+    --bs-accordion-active-bg: #fff;
+    border-radius: 100px;
+
+}
+.accordion-button {
+    border: 0;
+    overflow-anchor: none;
+    margin-bottom: 10px;
 }
 .view-all{
     background-color: #fff;
-    margin: 0 px;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 64.5%;
 }
-/* ============================================= */
-.content h4{
-    color: rgb(49, 49, 64);
-    font-size: 16px;
+.d-links{
+    background-color: rgb(255, 67, 56);
 }
-.content li a{
-    color: rgb(81, 81,100);
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-.option{
-    margin-left: 20px;
-}
-.option .form-select option{
-    color: rgb(81, 81,100);
-    font-size: 14px;
-    font-family: "Noto Sans",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-.andoios h4{
-    color: rgb(49, 49, 64);
-    font-size: 16px;
-    font-family: "Noto Sans",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    margin-bottom: 20px;
-} */
-/* =================================================== */
-.footer-item{
-    display: flex;
-    justify-content:space-between;
-    width: auto;
-
-}
-.footer-item .content-f ul {
-   display: flex;
-   justify-content: space-between;
-   width: 155%;
-   background-color: red;
-}
-.footer-item .content-f ul li a{
-    color: rgb(81, 81, 100);
-    font-size: 12px;
-    font-weight: lighter;
-    font-family: "Noto Sans",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    text-decoration: none;
-}
-.footer-item .fontawsomes ul{
-    display: flex;
-   justify-content: space-between;
-   width: 60%;
- 
-    
-    background-color: red;
-   
-   
-   
-
-}
+/* ========================= YOUSEF - END ========================= */
