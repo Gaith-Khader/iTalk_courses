@@ -100,37 +100,35 @@ let tabs=[
         active:"",show:"",
         classes:[
             {
-                name:"english",
-                num:"51916"
+                name:"Learning Slang and Phrasal Verbs to Communicate With Native English Speakers",
+                num:"51916",
+                img:"a2.png"
             },
             {
-                name:"french",
-                num:"5194"
+                name:"Improve Your English by Reading Children’s Picture",
+                num:"5194",
+                img:"a3.png"
             },
             {
-                name:"japanese",
-                num:"3930"
+                name:"Supporting yourself and others in difficult times!",
+                num:"3930",
+                img:"a1.png"
             },
             {
-                name:"chinese",
-                num:"3623"
+                name:"Reading is the Best Exercise to Improve Your Language",
+                num:"3623",
+                img:"a5.png"
             },
             {
-                name:"spanish",
-                num:"51916"
+                name:"Everyone Loves Idioms, But Did You Know",
+                num:"51916",
+                img:"a4.png"
             },
             {
-                name:"german",
-                num:"4900"
+                name:"Participate in the italki Community and Win italki",
+                num:"4900",
+                img:"a6.jpg"
             },
-            {
-                name:"korean",
-                num:"3078"
-            },
-            {
-                name:"italian",
-                num:"2785"
-            }
         ]
     },
     {
@@ -140,14 +138,6 @@ let tabs=[
         data1:"",data2:"",
         active:"",show:"",
         classes:[
-            {
-                name:"english",
-                num:"51916"
-            },
-            {
-                name:"french",
-                num:"5194"
-            },
             {
                 name:"japanese",
                 num:"3930"
@@ -260,11 +250,11 @@ let tabs=[
 function add_lang(ele,i){
             let code=`
                         <a class="btn btn-primary bg-white border-0 text-dark-emphasis p-3 text-start d-inline-flex p-2 max-height" href="#" role="button">
-                        <div>
-                            <img src="./assets/img/classroom/${ele.name}/${ele.classes[i].img}" alt="${ele.classes[i].name} class" class=" rounded-2 w-100" >
+                        <div  class="img-div">
+                            <img src="./assets/img/classroom/${ele.name}/${ele.classes[i].img}" alt="${ele.classes[i].name} class" class=" rounded-2 w-100 h-100 object-fit-cover" >
                         </div>
                         <div class="mx-3">
-                            <p class="fs-6 fw-bold m-0">${ele.classes[i].name}</p>
+                            <p class="fs-6 fw-bold m-0 p-description">${ele.classes[i].name}</p>
                             <p class="fs-sm fw-medium mt-1 mb-0">${ele.classes[i].num} are participating</p>
                         </div>
                         </a> 
