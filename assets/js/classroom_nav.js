@@ -9,7 +9,7 @@ let tabs=[
         caption:"Test your level with a free language assessment",link:"Test now",
         select:true,
         data1:"",data2:"",
-        active:"active",show:"show",
+        active:"active",show:"show",height:"min",
         classes:[
             {
                 name:"english",
@@ -58,7 +58,7 @@ let tabs=[
         caption:"Listen to locals talk about a language. Play a podcast!",link:"Listen now",
         select:false,
         data1:"",data2:"",
-        active:"",show:"",
+        active:"",show:"",height:"max",
         classes:[
             {
                 name:"English Nas Group Class Podcast January 2023-2 ELON MUSK ADVANCED",
@@ -97,7 +97,7 @@ let tabs=[
         caption:"Language learning articles, tips and guides written by expert language teachers",link:"Read now",
         select:false,
         data1:"",data2:"",
-        active:"",show:"",
+        active:"",show:"",height:"max",
         classes:[
             {
                 name:"Learning Slang and Phrasal Verbs to Communicate With Native English Speakers",
@@ -105,7 +105,7 @@ let tabs=[
                 img:"a2.png"
             },
             {
-                name:"Improve Your English by Reading Children’s Picture",
+                name:"Improve Your English by Reading Children’s Picture Books",
                 num:"5194",
                 img:"a3.png"
             },
@@ -120,12 +120,12 @@ let tabs=[
                 img:"a5.png"
             },
             {
-                name:"Everyone Loves Idioms, But Did You Know",
+                name:"Everyone Loves Idioms, But Did You Know…",
                 num:"51916",
                 img:"a4.png"
             },
             {
-                name:"Participate in the italki Community and Win italki",
+                name:"Participate in the italki Community and Win italki Credits",
                 num:"4900",
                 img:"a6.jpg"
             },
@@ -136,31 +136,37 @@ let tabs=[
         caption:"Meet, connect, and grow through language and culture discussions.",link:"Participate now",
         select:false,
         data1:"",data2:"",
-        active:"",show:"",
+        active:"",show:"",height:"max",
         classes:[
             {
-                name:"japanese",
-                num:"3930"
+                name:"# EnglishLeague",
+                num:"3930",
+                img:"t1.jpg"
             },
             {
-                name:"chinese",
-                num:"3623"
+                name:"# GroupClass",
+                num:"3623",
+                img:"t2.png"
             },
             {
-                name:"spanish",
-                num:"51916"
+                name:"# HelpMeCorrect",
+                num:"51916",
+                img:"t3.png"
             },
             {
-                name:"german",
-                num:"4900"
+                name:"# LanguagePartner",
+                num:"4900",
+                img:"t4.jpg"
             },
             {
-                name:"korean",
-                num:"3078"
+                name:"# italkiLanguageChallenge",
+                num:"3078",
+                img:"t5.png"
             },
             {
-                name:"italian",
-                num:"2785"
+                name:"# italkiRefresh",
+                num:"2785",
+                img:"t6.png"
             }
         ]
     },
@@ -169,39 +175,32 @@ let tabs=[
         caption:"Don't know what to practice? Choose a prompt.",link:"Practice now!",
         select:false,
         data1:"",data2:"",
-        active:"",show:"",
+        active:"",show:"",height:"max",d_img:"d-none",
         classes:[
+            
             {
-                name:"english",
-                num:"51916"
-            },
-            {
-                name:"french",
-                num:"5194"
-            },
-            {
-                name:"japanese",
+                name:"Write about why you are learning a new language",
                 num:"3930"
             },
             {
-                name:"chinese",
+                name:"Write about the weather today",
                 num:"3623"
             },
             {
-                name:"spanish",
+                name:"Do you think it is reliable to find true love on social apps?",
                 num:"51916"
             },
             {
-                name:"german",
+                name:"What would you want to know most if you could predict the future?",
                 num:"4900"
             },
             {
-                name:"korean",
-                num:"3078"
+                name:"What can we do in the face of extreme weather?",
+                num:"2785"
             },
             {
-                name:"italian",
-                num:"2785"
+                name:"Have you ever chosen budget airlines? What are the pros and cons?",
+                num:"3078"
             }
         ]
     },
@@ -209,39 +208,32 @@ let tabs=[
     caption:"Put your knowledge into practice by taking language quizzes.", link:"Answer now",
     select:false,
     data1:"",data2:"",
-    active:"",show:"",
+    active:"",show:"",height:"max",d_img:"d-none",
     classes:[
+        
         {
-            name:"english",
-            num:"51916"
-        },
-        {
-            name:"french",
-            num:"5194"
-        },
-        {
-            name:"japanese",
-            num:"3930"
-        },
-        {
-            name:"chinese",
-            num:"3623"
-        },
-        {
-            name:"spanish",
-            num:"51916"
-        },
-        {
-            name:"german",
+            name:"I'll eat some now and ______ some for tomorrow.",
             num:"4900"
         },
         {
-            name:"korean",
+            name:"She has ...... appointment with a client at 10.00.",
             num:"3078"
         },
         {
-            name:"italian",
+            name:"A dog is an animal.",
             num:"2785"
+        },
+        {
+            name:"Sometimes I ___ by car.",
+            num:"3930"
+        },
+        {
+            name:"I am telling you the truth. I am not a ____.",
+            num:"3623"
+        },
+        {
+            name:"I ___ him last night.",
+            num:"51916"
         }
     ]
     }
@@ -249,13 +241,13 @@ let tabs=[
 
 function add_lang(ele,i){
             let code=`
-                        <a class="btn btn-primary bg-white border-0 text-dark-emphasis p-3 text-start d-inline-flex p-2 max-height" href="#" role="button">
-                        <div  class="img-div">
+                        <a class=" ${ele.height}-height btn btn-primary bg-white border-0 text-dark-emphasis p-3 text-start d-inline-flex " href="#" role="button">
+                        <div  class="img-div h-100 ${ele.d_img}">
                             <img src="./assets/img/classroom/${ele.name}/${ele.classes[i].img}" alt="${ele.classes[i].name} class" class=" rounded-2 w-100 h-100 object-fit-cover" >
                         </div>
-                        <div class="mx-3">
+                        <div class=" d-flex flex-column justify-content-between">
                             <p class="fs-6 fw-bold m-0 p-description">${ele.classes[i].name}</p>
-                            <p class="fs-sm fw-medium mt-1 mb-0">${ele.classes[i].num} are participating</p>
+                            <p class="fs-sm fw-medium mb-1 mb-0">${ele.classes[i].num} are participating</p>
                         </div>
                         </a> 
                         `
