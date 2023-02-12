@@ -192,6 +192,62 @@ font-size: 12px;
 /*end italik offers style*/
 
 /*  start classroom style */
+
+/* nav tabs style */
+.nav-tabs{
+    border:0; 
+    flex-wrap: nowrap;
+}
+
+.nav-tabs .nav-item{
+    position: relative;
+    width: 15%;
+    margin-right: 9px;
+    margin-left: 9px;
+    /* flex-wrap: nowrap; */
+}
+
+.tab-icon{
+    width: 28px;
+}
+.nav-link span{
+    color: #515164 !important;
+    text-transform: capitalize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link{
+    position: relative;
+    width: 90%;
+    text-align: left;
+    margin-right: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-link.active{
+    border:1px solid rgb(81, 81, 100)!important;
+    /* color: #515164 !important; */
+}
+
+.nav-link.active::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    border-color: #515164 #515164 transparent transparent;
+    border-style: solid;
+    border-width: 12px;
+    border-top-right-radius: 8px;
+    z-index: 999999999;
+}
+
+/* end nav tab style */
+
 .min-height{
     height: 80px;
 }

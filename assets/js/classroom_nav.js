@@ -9,7 +9,7 @@ let tabs=[
         caption:"Test your level with a free language assessment",link:"Test now",
         select:true,
         data1:"",data2:"",
-        active:"active",show:"show",height:"min",
+        active:"active",show:"show",height:"min",num_sub:"are participating",
         classes:[
             {
                 name:"english",
@@ -136,7 +136,7 @@ let tabs=[
         caption:"Meet, connect, and grow through language and culture discussions.",link:"Participate now",
         select:false,
         data1:"",data2:"",
-        active:"",show:"",height:"max",
+        active:"",show:"",height:"max",num_sub:"are participating",
         classes:[
             {
                 name:"# EnglishLeague",
@@ -175,7 +175,7 @@ let tabs=[
         caption:"Don't know what to practice? Choose a prompt.",link:"Practice now!",
         select:false,
         data1:"",data2:"",
-        active:"",show:"",height:"max",d_img:"d-none",
+        active:"",show:"",height:"max",d_img:"d-none",num_sub:"are participating",
         classes:[
             
             {
@@ -208,7 +208,7 @@ let tabs=[
     caption:"Put your knowledge into practice by taking language quizzes.", link:"Answer now",
     select:false,
     data1:"",data2:"",
-    active:"",show:"",height:"max",d_img:"d-none",
+    active:"",show:"",height:"max",d_img:"d-none",num_sub:"quizzed",
     classes:[
         
         {
@@ -247,7 +247,7 @@ function add_lang(ele,i){
                         </div>
                         <div class=" d-flex flex-column justify-content-between">
                             <p class="fs-6 fw-bold m-0 p-description">${ele.classes[i].name}</p>
-                            <p class="fs-sm fw-medium mb-1 mb-0">${ele.classes[i].num} are participating</p>
+                            <p class="fs-sm fw-medium mb-1 mb-0 ">${ele.classes[i].num} ${ele.num_sub} </p>
                         </div>
                         </a> 
                         `
@@ -264,8 +264,12 @@ tabs.forEach((ele,i)=>{
     else ele.data1+=add_lang(ele,i);})
 
     tab_item+=`
-    <li class="nav-item" role="presentation">
-    <button class="nav-link text-capitalize ${ele.active}" id="${ele.name}-tab" data-bs-toggle="tab" data-bs-target="#${ele.name}-tab-pane" type="button" role="tab" aria-controls="${ele.name}-tab-pane" aria-selected="${ele.select}">${ele.name}</button>
+    <li class=" flex nav-item" role="presentation">
+   
+    <button class="bg-white rounded-1 nav-link  ${ele.active}" id="${ele.name}-tab" data-bs-toggle="tab" data-bs-target="#${ele.name}-tab-pane" type="button" role="tab" aria-controls="${ele.name}-tab-pane" aria-selected="${ele.select}">
+    <img src="./assets/img/classroom/tabs/${ele.name}.svg" class="tab-icon"/>
+   <span> ${ele.name}</span>
+    </button>
   </li>
     `
     tab_cont+=`    
@@ -279,7 +283,7 @@ tabs.forEach((ele,i)=>{
                   <p class="card-text mb-5 mt-1">
                    ${ele.caption}
                   </p>
-                  <a href="#" class="link-info">${ele.link}
+                  <a href="#" class="link-info  ">${ele.link}
                     <span><i class="fa-solid fa-chevron-right"></i></span>
                   </a>
                 </div>
