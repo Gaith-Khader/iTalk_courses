@@ -221,7 +221,7 @@ font-size: 12px;
 
 .nav-tabs .nav-link{
     position: relative;
-    width: 90%;
+    width: 100%;
     text-align: left;
     margin-right: 24px;
     display: flex;
