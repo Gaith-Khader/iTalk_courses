@@ -37,11 +37,21 @@
         margin-bottom: 10px;
     }
     .language{
-        background-color:  #F5F6F9;
+        background-color:  #fff;
     }
     .language .content{
         background-color: #fff;
         border-radius: 20px !important;
+    }
+    .language .all-language ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .learn .all-courses ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     /* language - end */
 }
@@ -71,12 +81,23 @@
         margin-bottom: 10px;
     }
     .language{
-        background-color:  #F5F6F9;
+        background-color:  #fff;
     }
     .language .content{
         background-color: #fff;
         border-radius: 20px !important;
     }
+    .language .all-language ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .learn .all-courses ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
 }
 
 /* macbook and other - large */

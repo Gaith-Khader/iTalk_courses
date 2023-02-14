@@ -13,6 +13,9 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 90%;
+}
 a{
     text-decoration: none;
     color: #515164;
@@ -317,6 +320,12 @@ div .img-div{
     border-radius: 100px;
 
 }
+/* picture */
+.picturess{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .accordion-button {
     border: 0;
     overflow-anchor: none;
@@ -330,4 +339,106 @@ div .img-div{
 .d-links{
     background-color: rgb(255, 67, 56);
 }
+/* start end section */
+
+/* root */
+.end-section1{
+    margin-top: 50px;
+}
+.contant{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    align-items: baseline;
+    
+
+    
+}
+/* root */
+
+.language{ 
+    text-align: start; 
+    margin-left: 18px;
+    
+}
+.title h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif; 
+}
+.language .all-language .list-language li a{
+    color: rgb(81,81,100);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;  
+}
+
+/* .language .all-language .list-language li a{
+    color: rgb(81,81,100);
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;    
+} */
+/* ============================== */
+.learn{
+    margin-left: 18px; 
+    text-align: start; 
+
+}
+ 
+.learn .all-courses .list-learn li a{
+    color: rgb(81,81,100);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;  
+}
+/* ============================ */
+.lessons{
+    
+    margin-left: 18px; 
+    text-align: start; 
+}
+.lessons .all-lesson .list-lesson li a{
+    color: rgb(81,81,100);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;  
+}
+/* ================ */
+.Promotions{
+   
+    margin-left: 18px; 
+    text-align: start; 
+}
+.Promotions .all-lesson .list-lesson li a{
+    color: rgb(81,81,100);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif; 
+}
+.option{
+    
+    margin-left: 18px; 
+    text-align: start; 
+}
+.select .form-select {
+    cursor: pointer;
+    margin-bottom: 20px;
+    border:solid,2px,black;
+}
+/* =================== */
+.andoios h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(49,49,64);
+    
+}
+.andoios a img{
+    margin-bottom: 5px;
+}
+
+/* end end section */
+
+
 /* ========================= YOUSEF - END ========================= */
