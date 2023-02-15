@@ -47,6 +47,13 @@ nav .container-fluid {
 /* header - end */
 
 /* Courses and Teacher Satrt */
+.courses .container, .teacher .container{
+    width: 100% !important;
+}
+.courses  .container-fluid , .teacher .container-fluid {
+    width:100% !important;
+}
+
 .part_3 {
     background-color: rgb(245, 246, 249);
 }
