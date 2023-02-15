@@ -1,16 +1,18 @@
 /* fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
 
 /* public */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style-type: none;
 }
 
@@ -23,19 +25,272 @@ li{
 
 
 /* navbar - start */
-nav .container-fluid{
+nav .container-fluid {
     width: 96% !important;
 }
+
 /* navbar - end */
 
 /* header - start */
-.container{
+.container {
     width: 60% !important;
 }
-.icon-w{
+
+.icon-w {
     width: 3%;
 }
-.header-list{
+
+.header-list {
     line-height: 10px;
 }
+
 /* header - end */
+
+/* Courses and Teacher Satrt */
+.part_3 {
+    background-color: rgb(245, 246, 249);
+}
+
+.courses {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.courses h2 {
+    color: rgb(49, 49, 64);
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.courses .nav-tabs {
+    border: none;
+}
+
+.courses .nav-tabs .nav-item .nav-link {
+    padding: 0.4rem 1.2rem;
+    margin: 0 0.3rem;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(81, 81, 100);
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.courses .nav-tabs .nav-item .nav-link.active {
+    background-color: rgb(81, 81, 100);
+    color: rgb(255, 255, 255);
+}
+
+/* course style  Start*/
+
+.courses .course {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.courses .course iframe {
+    width: 100%;
+    height: 146.81px;
+}
+
+
+.courses .course .teacher h5 {
+    font-size: 14px;
+    color: #313140;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.courses .course .teacher p {
+    color: #9c9cac;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.courses .course .teacher i {
+    color: #515164;
+    font-size: 12px;
+}
+
+.courses .course .lang {
+    color: #515164;
+}
+
+.courses .course .lang p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.courses .course .lang .counter {
+    margin-top: 7px;
+}
+
+.courses .course .lang .counter span {
+    float: left;
+    background-color: rgb(229, 232, 237);
+    width: 2px;
+    height: 10px;
+    margin-left: 2px;
+    padding: 0;
+}
+
+.courses .course .lang .counter .bg-blue {
+    background-color: rgb(0, 179, 189);
+}
+
+.courses .course .lang .counter .bg-green {
+    background-color: rgb(13, 226, 152);
+}
+
+.courses .course .lang .more {
+    background-color: rgb(245, 246, 249);
+    font-weight: 400;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+
+.courses .course .price {
+    position: relative;
+}
+
+.courses .course .price p:nth-child(1) {
+    color: #9c9cac;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.courses .course .price p:nth-child(2) {
+    color: #313140;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.courses .course .price a {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 67, 56);
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.courses .course:hover a {
+    opacity: 1;
+}
+
+.courses .course .price a:hover {
+    background-color: rgb(211, 56, 47);
+}
+
+.courses .corBtn {
+    width: 22rem;
+    letter-spacing: 0.1rem;
+}
+
+.courses a span {
+    color: #515164;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.courses a i {
+    color: rgb(81, 81, 100);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+/* Courses end */
+/* Teacher Section start */
+.teacher .content {
+    padding: 2rem 2rem 0 2rem;
+    position: relative;
+}
+
+.teacher .content::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(81, 81, 100);
+    width: 99.5%;
+    height: 0.5rem;
+    top: 0px;
+    left: 00.1rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+.teacher h2 {
+    color: rgb(49, 49, 64);
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.teacher .content .learning h4 {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(81, 81, 100);
+    font-weight: 700;
+}
+
+.teacher .content .learning .lang-choices a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-right: 0.6rem;
+    background-color: rgb(245, 246, 249);
+    color: rgb(156, 156, 172);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.teacher .content .learning .lang-choices .clicked {
+    color: white;
+    background-color: rgb(81, 81, 100);
+}
+
+.teacher .content .learning .lang-choices a:hover {
+    background-color: rgb(229, 232, 237);
+}
+
+.teacher .content .learning .lang-choices .clicked:hover {
+    background-color: rgb(81, 81, 100);
+}
+
+
+.teacher .content .find {
+    background-color: rgb(81, 81, 100);
+    color: white;
+    font-weight: 700;
+    font-family: Noto Sans;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    line-height: 14px;
+    transition: all 0.3s
+}
+
+.teacher .content .find:hover {
+    background-color: #313140;
+}
+
+.teacher .content img {
+    width: 11.5%;
+}
+
+/* Teacher end */

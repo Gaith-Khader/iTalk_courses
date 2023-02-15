@@ -1,0 +1,338 @@
+@media  screen and (max-width: 700px){
+    .teacher .girl{
+        display:none;
+    }
+} 
+
+@media only screen and (max-width: 320px){
+    .courses h2{
+        font-size:20px;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .courses .nav-tabs{
+        justify-content: space-around !important;
+    }
+
+    .courses .nav-tabs .nav-item .nav-link{
+        padding: 0.4rem !important;
+        margin: 0.2rem 0  !important;
+        font-size: 11px;
+    }
+
+    .courses .tab-content{
+        padding-bottom: 2rem !important;
+    }
+
+    .courses .course{
+        margin-bottom: 0.8rem;
+    }
+
+    .courses .course .teacher h5{
+        font-size: 16px !important;
+    }
+    
+    .courses .course .teacher p{
+        font-size: 14px !important;
+    }
+    
+    .courses .course .teacher i{
+        font-size: 13px;
+    }
+    
+    .courses .course .lang p{
+        font-size: 15px  !important;
+    }
+    
+    .courses .course .lang .counter span{
+        width: 3px;
+        margin-left: 3px;
+    }
+    
+    .courses .course .price p:nth-child(1){
+        font-size: 14px  !important;
+    }
+
+    .courses .course .price p:nth-child(2){
+        font-size: 17px  !important;
+    }
+
+    .courses .corBtn{
+        width:16rem !important;
+    }
+    
+   
+/* Teacher Section  */
+    .teacher{
+        padding-top: 0rem !important;
+    }
+
+    .teacher .content{
+        padding: 1rem 1.5rem  0 1.5rem !important;
+    }
+
+    .teacher h2{
+        font-size:20px  !important;
+    }
+
+    .teacher .content .learning{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .teacher .content .learning:nth-child(2){
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .teacher .content .learning h4{
+        font-size:16px  !important;
+    }
+
+    
+    .teacher .content .learning .lang-choices a{
+        padding: 0.3rem 0.4rem !important;
+        margin: 0.1rem 0.1rem;
+    }
+
+    .teacher .content .learning .lang-choices a:nth-child(1), .teacher .content .learning .lang-choices a:nth-child(4){
+        margin-top: 8px;
+    }
+
+    .teacher .content .learning .lang-choices:nth-child(2) a:nth-child(2), .teacher .content .learning .lang-choices:nth-child(2):nth-child(2) a:nth-child(3){
+        margin-top: 8px;
+    }
+
+    .teacher .content .find{
+       margin-bottom: 15px;
+    }
+
+    .teacher .content img{
+        width:10%;
+    }
+
+
+}
+@media only screen and (max-width: 393px) and (min-width: 360px){
+    .courses h2{
+        font-size:22px;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .courses .nav-tabs{
+        justify-content: space-around !important;
+    }
+
+    .courses .nav-tabs .nav-item .nav-link{
+        padding: 0.4rem !important;
+        margin: 0.2rem 0  !important;
+        font-size: 13px;
+    }
+
+    .courses .tab-content{
+        padding-bottom: 2rem !important;
+    }
+
+    .courses .course{
+        margin-bottom: 0.8rem;
+    }
+
+    .courses .course .teacher h5{
+        font-size: 17px !important;
+    }
+    
+    .courses .course .teacher p{
+        font-size: 14px !important;
+    }
+    
+    .courses .course .teacher i{
+        font-size: 15px;
+    }
+    
+    .courses .course .lang p{
+        font-size:17px  !important;
+    }
+    
+    .courses .course .lang .counter span{
+        width: 4px;
+        margin-left: 4px !important;
+    }
+    
+    .courses .course .price p:nth-child(1){
+        font-size: 14px  !important;
+    }
+
+    .courses .course .price p:nth-child(2){
+        font-size: 17px  !important;
+    }
+
+    .courses .corBtn{
+        width:16rem !important;
+    }
+    
+   
+/* Teacher Section  */
+    .teacher{
+        padding-top: 0rem !important;
+    }
+
+    .teacher .content{
+        padding: 1rem 1.5rem  0 1.5rem !important;
+    }
+
+    .teacher h2{
+        font-size:22px;
+    }
+
+    .teacher .content .learning{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .teacher .content .learning:nth-child(2){
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .teacher .content .learning h4{
+        font-size:19px;
+    }
+
+    
+    .teacher .content .learning .lang-choices a{
+        font-size: 20px;
+        padding: 0.3rem 0.4rem !important;
+        margin: 0.1rem 0.1rem;
+    }
+
+    .teacher .content .learning .lang-choices a:nth-child(4){
+        margin-top: 8px;
+    }
+
+    .teacher .content .learning .lang-choices a, .teacher .content .learning .lang-choices:nth-child(2):nth-child(2) a:nth-child(3){
+        margin-top: 8px;
+    }
+
+    .teacher .content .find{
+       margin-bottom: 15px;
+       padding: 0.8rem 0 !important;
+    }
+
+    .teacher .content img{
+        width:10%;
+    }
+
+
+}
+@media only screen and (max-width: 430px) and (min-width:410px){
+    .courses h2{
+        font-size:24px;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .courses .nav-tabs{
+        justify-content: space-around !important;
+    }
+
+    .courses .nav-tabs .nav-item .nav-link{
+        padding: 0.5rem !important;
+        margin: 0.2rem 0.1rem !important;
+        font-size: 16px !important;
+    }
+
+    .courses .tab-content{
+        padding-bottom: 2rem !important;
+    }
+
+    .courses .course{
+        margin-bottom: 0.8rem;
+    }
+
+    .courses .course .teacher h5{
+        font-size: 17px !important;
+    }
+    
+    .courses .course .teacher p{
+        font-size: 15px !important;
+    }
+    
+    .courses .course .teacher i{
+        font-size: 15px;
+    }
+    
+    .courses .course .lang p{
+        font-size:15px !important;
+    }
+    
+    .courses .course .lang .counter span{
+        width: 4px;
+        margin-left: 3px !important;
+    }
+    
+    .courses .course .price p:nth-child(1){
+        font-size: 14px !important;
+    }
+
+    .courses .course .price p:nth-child(2){
+        font-size: 17px !important;
+    }
+
+    .courses .corBtn{
+        width:16rem !important;
+    }
+    
+   
+/* Teacher Section  */
+    .teacher{
+        padding-top: 0rem !important;
+    }
+
+    .teacher .content{
+        padding: 1rem 1.5rem  0 1.5rem !important;
+    }
+
+    .teacher h2{
+        font-size:22px;
+    }
+
+    .teacher .content .learning{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .teacher .content .learning:nth-child(2){
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .teacher .content .learning h4{
+        font-size:19px;
+    }
+
+    
+    .teacher .content .learning .lang-choices a{
+        font-size: 16px !important;
+        padding: 0.3rem 0.6rem !important;
+        margin: 0.1rem 7px;
+    }
+
+    .teacher .content .learning .lang-choices:nth-child(1) a:nth-child(4),.teacher .content .learning .lang-choices:nth-child(2) a:nth-child(3){
+        margin-top: 8px;
+    }
+
+    .teacher .content .find{
+       margin-bottom: 15px;
+       padding: 0.8rem 0 !important;
+       font-size: 15px !important;
+    }
+
+    .teacher .content img{
+        width:10%;
+    }
+
+
+}
+
