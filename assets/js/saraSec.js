@@ -1607,7 +1607,7 @@ let data=`
     <div class="container">
       <div class="row gx-0">
         <div class="col-md-6">
-          <img src="assets/img/find_your_tutor.webp" class="w-100 girl" alt="Teacher Image photo">
+          <img src="assets/imgs/find_your_tutor.webp" class="w-100 girl" alt="Teacher Image photo">
         </div>
         <div class="col-md-6 bg-white rounded-4">
           <div class="content">
@@ -1635,7 +1635,7 @@ let data=`
               </div>
             </div>
             <a class=" find text-capitalize  rounded-2 py-2 d-flex justify-content-center align-items-center" href="#">
-              <img class="me-2" src="assets/img/find_your_tutor_avatars.webp" alt="tutor avatar">
+              <img class="me-2" src="assets/imgs/find_your_tutor_avatars.webp" alt="tutor avatar">
               find my teacher</a>
           </div>
         </div>
