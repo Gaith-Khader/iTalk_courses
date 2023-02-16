@@ -3,7 +3,7 @@ let data=`
   <section class="courses pt-4 pb-5 part_3">
     <div class="container">
       <h2 class="text-center py-3 mb-4"><span class="text-capitalize">p</span>ick from 150+ languages</h2>
-      <ul class="nav nav-tabs mt-4 mb-4 d-flex justify-content-center" id="myTab" role="tablist">
+      <ul class="nav nav-tabs mt-4 mb-4 d-flex justify-content-center" id="myTabs" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active rounded-pill" id="english-tab" data-bs-toggle="tab"
             data-bs-target="#english-tab-pane" type="button" role="tab" aria-controls="english-tab-pane"
@@ -43,7 +43,7 @@ let data=`
             type="button" role="tab" aria-controls="chinese-tab-pane" aria-selected="false">chinese</button>
         </li>
       </ul>
-      <div class="tab-content pb-5" id="myTabContent">
+      <div class="tab-content pb-5" id="myTabContents">
         <div class="tab-pane fade show active" id="english-tab-pane" role="tabpanel" aria-labelledby="english-tab"
           tabindex="0">
           <div class="row">
